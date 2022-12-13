@@ -1,0 +1,416 @@
+Reading training data
+217121it [00:01, 140495.55it/s]
+Reading validation data
+27150it [00:01, 25825.54it/s]
+Generating training instances
+100% 12543/12543 [01:18<00:00, 160.76it/s]
+2022-10-07 07:11:48.669657: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:39] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+
+Reading pretrained embedding file.
+400000it [00:16, 23882.71it/s]
+
+Generating Training batches:
+100% 39/39 [00:03<00:00,  9.79it/s]
+
+Epoch 1 / 50
+Average training loss: 11.76 : 100% 39/39 [00:05<00:00,  7.26it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:23<00:00, 24.00it/s]
+UAS: 51.151139210306575
+LAS: 41.25014911129667
+
+
+Epoch 2 / 50
+Average training loss: 1.76 : 100% 39/39 [00:02<00:00, 16.10it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:24<00:00, 23.81it/s]
+UAS: 61.099844924251464
+LAS: 53.79935583919838
+
+
+Epoch 3 / 50
+Average training loss: 0.84 : 100% 39/39 [00:02<00:00, 15.66it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:22<00:00, 24.33it/s]
+UAS: 64.0104974352857
+LAS: 57.68022585391069
+
+
+Epoch 4 / 50
+Average training loss: 0.58 : 100% 39/39 [00:02<00:00, 15.92it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:23<00:00, 24.02it/s]
+UAS: 62.87327527933516
+LAS: 57.11559107718001
+
+
+Epoch 5 / 50
+Average training loss: 0.42 : 100% 39/39 [00:02<00:00, 15.66it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 24.84it/s]
+UAS: 68.61903057775658
+LAS: 63.064137739075115
+
+
+Epoch 6 / 50
+Average training loss: 0.37 : 100% 39/39 [00:02<00:00, 15.59it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.61it/s]
+UAS: 69.13992604079685
+LAS: 63.95085291661696
+
+
+Epoch 7 / 50
+Average training loss: 0.25 : 100% 39/39 [00:02<00:00, 15.67it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 24.83it/s]
+UAS: 70.07435683327368
+LAS: 64.99264384269752
+
+
+Epoch 8 / 50
+Average training loss: 0.15 : 100% 39/39 [00:02<00:00, 15.90it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.68it/s]
+UAS: 69.83975505984333
+LAS: 65.11988548252415
+
+
+Epoch 9 / 50
+Average training loss: 0.10 : 100% 39/39 [00:02<00:00, 15.68it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.66it/s]
+UAS: 70.77418585232017
+LAS: 66.18951051731679
+
+
+Epoch 10 / 50
+Average training loss: 0.08 : 100% 39/39 [00:02<00:00, 15.85it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 24.91it/s]
+UAS: 71.29905761660504
+LAS: 66.9291025488091
+
+
+Epoch 11 / 50
+Average training loss: 0.06 : 100% 39/39 [00:02<00:00, 15.59it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.50it/s]
+UAS: 71.3070102190942
+LAS: 66.996699669967
+
+
+Epoch 12 / 50
+Average training loss: 0.05 : 100% 39/39 [00:02<00:00, 15.83it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 25.01it/s]
+UAS: 71.80802417591157
+LAS: 67.68857608652432
+
+
+Epoch 13 / 50
+Average training loss: 0.04 : 100% 39/39 [00:02<00:00, 15.95it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.68it/s]
+UAS: 71.96707622569485
+LAS: 67.74026800270389
+
+
+Epoch 14 / 50
+Average training loss: 0.03 : 100% 39/39 [00:02<00:00, 15.82it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 25.00it/s]
+UAS: 72.2295121078373
+LAS: 67.78798361763887
+
+
+Epoch 15 / 50
+Average training loss: 0.03 : 100% 39/39 [00:02<00:00, 15.58it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 24.73it/s]
+UAS: 72.68281044971967
+LAS: 68.46793113046245
+
+
+Epoch 16 / 50
+Average training loss: 0.02 : 100% 39/39 [00:02<00:00, 14.94it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.11it/s]
+UAS: 73.2593741301841
+LAS: 69.00870809972564
+
+
+Epoch 17 / 50
+Average training loss: 0.02 : 100% 39/39 [00:02<00:00, 15.21it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.68it/s]
+UAS: 73.28720823889618
+LAS: 69.11606823332936
+
+
+Epoch 18 / 50
+Average training loss: 0.02 : 100% 39/39 [00:02<00:00, 15.07it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.63it/s]
+UAS: 73.78424589446897
+LAS: 69.64889260010338
+
+
+Epoch 19 / 50
+Average training loss: 0.02 : 100% 39/39 [00:02<00:00, 14.95it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 24.79it/s]
+UAS: 73.52578631357112
+LAS: 69.3745278142272
+
+
+Epoch 20 / 50
+Average training loss: 0.02 : 100% 39/39 [00:02<00:00, 14.77it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.25it/s]
+UAS: 71.94719471947195
+LAS: 67.5573581454531
+
+
+Epoch 21 / 50
+Average training loss: 0.02 : 100% 39/39 [00:02<00:00, 14.77it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:18<00:00, 25.37it/s]
+UAS: 74.16994711519345
+LAS: 70.11411984571951
+
+
+Epoch 22 / 50
+Average training loss: 0.02 : 100% 39/39 [00:02<00:00, 15.55it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 24.92it/s]
+UAS: 73.8677482206052
+LAS: 69.7125134200167
+
+
+Epoch 23 / 50
+Average training loss: 0.03 : 100% 39/39 [00:02<00:00, 16.00it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.23it/s]
+UAS: 74.43635929858046
+LAS: 70.51572627142232
+
+
+Epoch 24 / 50
+Average training loss: 0.02 : 100% 39/39 [00:02<00:00, 15.91it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.03it/s]
+UAS: 73.83593781064853
+LAS: 69.93916259095789
+
+
+Epoch 25 / 50
+Average training loss: 0.03 : 100% 39/39 [00:02<00:00, 15.85it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.31it/s]
+UAS: 73.38263946876616
+LAS: 69.07630522088354
+
+
+Epoch 26 / 50
+Average training loss: 0.03 : 100% 39/39 [00:02<00:00, 15.99it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.23it/s]
+UAS: 74.74651079565788
+LAS: 70.72249393614061
+
+
+Epoch 27 / 50
+Average training loss: 0.04 : 100% 39/39 [00:02<00:00, 16.12it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:18<00:00, 25.51it/s]
+UAS: 73.21165851524911
+LAS: 69.27909658435723
+
+
+Epoch 28 / 50
+Average training loss: 0.05 : 100% 39/39 [00:02<00:00, 15.87it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.29it/s]
+UAS: 69.65684520259255
+LAS: 65.65270984929818
+
+
+Epoch 29 / 50
+Average training loss: 0.11 : 100% 39/39 [00:02<00:00, 15.88it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:18<00:00, 25.43it/s]
+UAS: 71.43822816016541
+LAS: 67.25913555210943
+
+
+Epoch 30 / 50
+Average training loss: 0.16 : 100% 39/39 [00:02<00:00, 15.86it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.24it/s]
+UAS: 73.29516084138534
+LAS: 69.34669370551514
+
+
+Epoch 31 / 50
+Average training loss: 0.19 : 100% 39/39 [00:02<00:00, 15.86it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.30it/s]
+UAS: 75.00894667780031
+LAS: 71.09228995188676
+
+
+Epoch 32 / 50
+Average training loss: 0.27 : 100% 39/39 [00:02<00:00, 16.00it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:22<00:00, 24.18it/s]
+UAS: 75.25547735496441
+LAS: 70.96107201081554
+
+
+Epoch 33 / 50
+Average training loss: 0.20 : 100% 39/39 [00:02<00:00, 16.04it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.48it/s]
+UAS: 75.98314048272297
+LAS: 72.19372539663605
+
+
+Epoch 34 / 50
+Average training loss: 0.06 : 100% 39/39 [00:02<00:00, 15.87it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.60it/s]
+UAS: 77.14819674738558
+LAS: 73.51783371108195
+
+
+Epoch 35 / 50
+Average training loss: 0.02 : 100% 39/39 [00:02<00:00, 15.97it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.41it/s]
+UAS: 77.70885522287169
+LAS: 74.22959163386219
+
+
+Epoch 36 / 50
+Average training loss: 0.01 : 100% 39/39 [00:02<00:00, 15.96it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 24.80it/s]
+UAS: 77.78440494651875
+LAS: 74.31309395999841
+
+
+Epoch 37 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.82it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.52it/s]
+UAS: 77.89971768261164
+LAS: 74.53179052845043
+
+
+Epoch 38 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.89it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.69it/s]
+UAS: 77.86790727265497
+LAS: 74.52383792596127
+
+
+Epoch 39 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.73it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 24.95it/s]
+UAS: 77.94743329754662
+LAS: 74.62722175832042
+
+
+Epoch 40 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.05it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 24.83it/s]
+UAS: 77.9315280925683
+LAS: 74.59143504711918
+
+
+Epoch 41 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.03it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 24.88it/s]
+UAS: 78.00707781621536
+LAS: 74.6749373732554
+
+
+Epoch 42 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 14.84it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.61it/s]
+UAS: 77.87983617638872
+LAS: 74.57155354089626
+
+
+Epoch 43 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.98it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 24.98it/s]
+UAS: 78.03093562368285
+LAS: 74.72662928943497
+
+
+Epoch 44 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.98it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.55it/s]
+UAS: 77.94743329754662
+LAS: 74.62722175832042
+
+
+Epoch 45 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.88it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.02it/s]
+UAS: 78.11443794981908
+LAS: 74.82603682054952
+
+
+Epoch 46 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 16.28it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:20<00:00, 25.00it/s]
+UAS: 77.9315280925683
+LAS: 74.61529285458667
+
+
+Epoch 47 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.88it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.12it/s]
+UAS: 78.10250904608533
+LAS: 74.82603682054952
+
+
+Epoch 48 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.91it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.69it/s]
+UAS: 77.99514891248161
+LAS: 74.71072408445664
+
+
+Epoch 49 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.87it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:21<00:00, 24.59it/s]
+UAS: 78.12239055230825
+LAS: 74.88568133921827
+
+
+Epoch 50 / 50
+Average training loss: 0.00 : 100% 39/39 [00:02<00:00, 15.79it/s]
+Evaluating validation performance:
+100% 2001/2001 [01:19<00:00, 25.11it/s]
+UAS: 78.00707781621536
+LAS: 74.73458189192414
+
+Evaluation Report after 50 epochs:
+UAS: 78.00707781621536
+LAS: 74.73458189192414
