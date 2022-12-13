@@ -87,3 +87,50 @@ The word embeddings are visualized using t-SNE.
 ### GloVe with Negative Sampling
 
 ![image](https://user-images.githubusercontent.com/63910248/207248357-ca38511c-61f0-4a70-98b6-031293a95a26.png)
+
+# Named Entity Recognition and Evaluation
+
+## Introduction
+
+**Named Entity Recognition (NER) is a subtask of Information Extraction that locates and classifies named entities in text into pre-defined categories such as the names of persons, organizations, locations, expressions of times, quantities, monetary values, percentages, etc.**
+
+**It is a challenging task in Natural Language Processing (NLP) because of the ambiguity of the language and the presence of many named entities that are not included in the pre-defined categories and the need to generalize to new categories.**
+
+## Dataset
+
+The dataset is available on the following sites. It contains **14041 sentences with 203621 tokens and 4258 named entities.**
+```
+https://www.clips.uantwerpen.be/conll2003/ner/
+https://data.deepai.org/conll2003.zip
+https://huggingface.co/datasets/conll2003
+```
+
+## Process
+
+We have implemented the **NER model using Word Vectors learned from Skip-Gram, CBOW and GloVe.** We have used the **CoNLL-2003 dataset** for training and testing the model.
+
+Build a binary classification model for each class of the dataset and **predict whether each token is a named entity or not.** We enhance the model by using the word vectors learned from Skip-Gram, CBOW and GloVe. The surrounding words of the token are used as the context for the model.
+
+## Model Parameters
+
+1. **Embedding Dimension - 300**
+2. **2-Layer Neural Classifier (Hidden Layer 1- 100 nodes, Hidden Layer 2 - 50 nodes)**
+3. **Learning Rate - 0.001**
+4. **Batch Size - 100**
+5. **Epochs - 10**
+6. **Adam Optimizer**
+7. **Sigmod Activation Function**
+8. **Cross Entropy Loss**
+
+## Testing
+
+Predict the named entities in the test set and evaluate the model using the accuracy, precision, recall and F1 score.
+
+## Results
+
+### Skip-Gram
+
+### CBOW
+
+### GloVe
+
