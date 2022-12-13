@@ -130,7 +130,16 @@ Predict the named entities in the test set and evaluate the model using the accu
 
 ### Skip-Gram
 
+![image](https://user-images.githubusercontent.com/63910248/207261787-2d34ab9a-c3da-4292-a081-5058fd56cbb9.png)
+
+
 ### CBOW
 
+![image](https://user-images.githubusercontent.com/63910248/207261719-d42e222d-c341-41aa-b5ec-adeb0c93ce8e.png)
+
+
 ### GloVe
+
+![image](https://user-images.githubusercontent.com/63910248/207261840-382132c1-a947-4653-87a5-ca3394729228.png)
+
 
